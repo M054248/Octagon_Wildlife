@@ -1,0 +1,117 @@
+.jumbotron {
+    color: none;
+    background-image: url("../images/hero-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  /* HERO HEADLINE AND BODY */
+.TheHeroWeChose {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 65%;
+    margin-left: 7%;
+    width: 66.6%;
+    padding-bottom: 1%;
+}
+
+/* HERO HEADLINE */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold !important;
+    font-size: 40pt;
+    color: #eece91;
+}
+
+/* HERO COPY */
+.HeroCopy {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal !important;
+    font-size: 18pt;
+    line-height: 36pt;
+    position:absolute;
+    top:55%;
+    color: white !important;
+    padding:10px;
+    clear:right;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36pt !important;
+    font-weight: bold !important;
+    color: black;
+    margin-top: 7% !important;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold !important;
+    font-size: 24pt;
+    line-height: 36pt;
+    color: black !important;
+    text-transform: uppercase;
+}
+
+.ournav a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal !important;
+    font-size: 16pt;
+    color: white;
+}
+
+.navbar {
+    background:transparent !important;
+    background-blend-mode: multiply;
+    z-index: +20;
+}
+
+.NavWithLogo {
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.PushMyButtons-Y {
+    background-color: #eece91;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal !important;
+    font-size: 18pt;
+    border: none;
+    border-radius:10px;
+    Padding: 7px 14px 7px 14px !important;
+    /* margin-left:20px; */
+}
+
+.jumbotron-fluid {
+    padding: 1rem 2rem !important;
+}
+
+.ourdropdown {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal !important;
+    font-size: 16pt;
+}
+.MeganTheeStallion {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal !important;
+    font-size: 18pt !important;
+    line-height: 36pt;
+    margin-bottom: 7% !important;
+}
+
+.tanback{
+    background-color: #e6dcc3;
+}
+
+.OurRows {
+    display: flex;
+    flex-direction: row;
+}
