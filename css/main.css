@@ -1,11 +1,11 @@
 .jumbotron {
-    color: none;
+    /* color: none; */
     background-image: url("../images/hero-img.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-  }
+}
 
   /* HERO HEADLINE AND BODY */
 .TheHeroWeChose {
@@ -24,7 +24,31 @@ h1 {
     font-weight: bold !important;
     font-size: 40pt;
     color: #eece91;
+    text-shadow: rgba(54, 22, 0, 0.5) 2px 2px 10px;
 }
+
+/* SECTION HEADLINE */
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36pt !important;
+    font-weight: bold !important;
+    color: black;
+    margin-top: 7% !important;
+    text-transform: capitalize;
+}
+
+ /* ALL CAPS SUBHEAD */
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal !important;
+    font-size: 22pt;
+    font-weight: bold !important;
+    font-size: 24pt;
+    line-height: 36pt;
+    color: black !important;
+    text-transform: uppercase;
+}
+
 
 /* HERO COPY */
 .HeroCopy {
@@ -40,31 +64,35 @@ h1 {
     text-transform: capitalize;
 }
 
-h2 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 36pt !important;
-    font-weight: bold !important;
+/* BODY COPY */
+.MeganTheeStallion {
     color: black;
-    margin-top: 7% !important;
-    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal !important;
+    font-size: 18pt !important;
+    line-height: 36pt;
+    margin-bottom: 7% !important;
 }
 
-h3 {
+/* PRIMARY NAV TEXT */
+.ournav a {
     font-family: 'Poppins', sans-serif;
     font-weight: bold !important;
-    font-size: 24pt;
-    line-height: 36pt;
-    color: black !important;
+    font-size: 18pt;
+    color: white;
     text-transform: uppercase;
 }
 
-.ournav a {
+/* DROPDOWN NAV TEXT */
+.ourdropdown {
+    color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: normal !important;
     font-size: 16pt;
-    color: white;
+    text-transform: uppercase;
 }
 
+/* NAVBAR BACKGROUND */
 .navbar {
     background:transparent !important;
     background-blend-mode: multiply;
@@ -76,6 +104,7 @@ h3 {
     margin-right: 10%;
 }
 
+/* YELLOW BUTTONS */
 .PushMyButtons-Y {
     background-color: #eece91;
     color: black;
@@ -92,26 +121,63 @@ h3 {
     padding: 1rem 2rem !important;
 }
 
-.ourdropdown {
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    font-weight: normal !important;
-    font-size: 16pt;
-}
-.MeganTheeStallion {
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    font-weight: normal !important;
-    font-size: 18pt !important;
-    line-height: 36pt;
-    margin-bottom: 7% !important;
-}
 
 .tanback{
     background-color: #e6dcc3;
+    margin-bottom: 20px;
+}
+.whiteback{
+    background-color: #fffFff;
+}
+.animalprint {
+    background-image: url("../images/animalprint@2x.png");
 }
 
 .OurRows {
     display: flex;
     flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.OurColumns {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.tanback .whiteback .animalprint{
+    width: 100vw !important;
+    margin-left:10% !important;
+    margin-right:10% !important;
+}
+
+.tanback .whiteback div {
+    padding-left: 10%;
+    margin-left: 10%;
+}
+
+.carousel-control-prev {
+    left: 0 !important;
+    color: black !important;
+    margin-left: -15% !important;
+}
+
+.carousel-control-next {
+    right: 0 !important;
+    color: black !important;
+    margin-right: -15% !important;
+}
+
+.card {
+    background-color: #e6dcc3;
+    border: none;
+}
+
+.card-img {
+    height: 100%;
+    width:auto;
+    aspect-ratio: 1/1;
+    vertical-align: middle;
+    text-align: right;
 }
