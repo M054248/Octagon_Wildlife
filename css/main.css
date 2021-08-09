@@ -18,6 +18,11 @@
     
 }
 
+.HeroicButton {
+    margin-top: 1% !important;
+    margin-bottom: 10% !important;
+}
+
   /* HERO HEADLINE AND BODY */
 .TheHeroWeChose {
     padding-bottom: 2%;
@@ -107,6 +112,7 @@ h3 {
     background:transparent !important;
     background-blend-mode: multiply;
     z-index: +20;
+    border-radius: 15px !important;
 }
 
 .NavWithLogo {
