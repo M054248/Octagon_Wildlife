@@ -5,13 +5,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    position: absolute
+    top:0;
     /* height: fit-content; */
 }
 
-.jumbotron-fluid {
-    padding: 1rem 2rem !important;
+.jumbotron-fluid .container-fluid {
+    padding: 0 !important;
     
-}
+} */
 
 .HeroicButton {
     margin-top: 2% !important;
@@ -90,8 +92,11 @@ h3 {
     font-weight: bold !important;
     font-size: 18pt !important;
     color: rgba(255,255,255,1) !important;
-    text-transform: uppercase !important; 
-    /* Margin-top:-5%; */
+    text-transform: uppercase !important;   
+}
+
+.nav-link {
+    padding-right: 30px !important;
 }
 
 /* DROPDOWN NAV TEXT */
@@ -105,17 +110,23 @@ h3 {
 
 /* NAVBAR BACKGROUND */
 .navbar {
-    background:transparent !important;
-    background-blend-mode: multiply;
     z-index: +20;
-    border-radius: 15px !important;
 }
 
-.NavWithLogo {
+.bg-dark {
+    background:linear-gradient(rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%) !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+    padding-left: 5%;
+    padding-right: 8%;
+}
+
+/* .NavWithLogo {
     margin-left: 5%;
     margin-right: 10%;
     Margin-top:0%;
-}
+} */
 
 .NavWithLogo img {
     margin-top: 20px !important;
@@ -129,10 +140,9 @@ h3 {
     font-weight: normal !important;
     font-size: 18pt;
     border: none;
-    border-radius:10px;
+    border-radius:5px;
     Padding: 7px 14px 7px 14px !important;
     margin-bottom: 5%;
-    margin-left: 1%;
     position: relative;
     float:left;
 }
@@ -145,10 +155,9 @@ h3 {
     font-weight: normal !important;
     font-size: 18pt;
     border: none;
-    border-radius:10px;
+    border-radius:5px;
     Padding: 7px 14px 7px 14px !important;
     margin-bottom: 5%;
-    margin-left: 1%;
     position: relative;
     float:left;
 }
@@ -166,10 +175,8 @@ h3 {
 
 .OurSmallRows {
     display: flex;
-    flex-direction: row;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 1%;
+    flex-direction: row;]
+    justify-content: space-between;
 }
 
 .OurColumns {
@@ -183,9 +190,6 @@ h3 {
 .OurSmallColumns {
     display: flex;
     flex-direction: column;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 1%;
 }
 
 .tanback .whiteback .animalprint{
